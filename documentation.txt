@@ -1,0 +1,48 @@
+
+Network Used
+ssd_mobilenet_v1_coco_2017_11_17
+Getting it inside the code.
+
+Things I learnt during the project:
+
+Key terms:
+
+Tensor: A tensor is a collection of feature vectors (i.e., array) of n-dimensions
+
+Tensorflow: An open source Machine learning platform.
+
+Cocoapi: A large image dataset designed for object detection, segmentation, person keypoints detection.
+
+Protocol Buffers (Protobuf): A method of serializing structured data.
+One of the use of Protobuf in TensorFlow is the protbuf file contains the graph definition as well as the weights of the model. Thus, a pb file is all you need to be able to run a given trained model.
+
+TensorBoard: A dashborad which provides the visualization and tooling needed for machine learning experimentation.
+
+Technical skills acquired:
+Gained beginner's understanding of using Tensorflow. Learnt about in-built functions such as squeeze, shape, axis, reshape; Graphs (a binary file), Sessions, OpenCV(elementary)  
+
+Frozen graph - A pre-trained model which can be loaded to perform predictions.
+
+
+Challenges:
+New to Tensorflow and object detection concepts.
+Tried GPU based Tf training,
+Attempted Tensorflow installations on Ubuntu and Windows. On Ubuntu I faced hardware and memory space limitations, while on windows 'make' file did not compile with GPU and CUDA enanbled.
+Due to time limitations, carried on with CPU Tf.
+
+  
+Knowledge used:
+Past experience with Machine learning concepts, graphs and Python modules like Numpy, Pillow, pickle helped in understanding the related concepts.
+
+
+Takeaways:
+Learned and acquired hands on experience on technical skills new to me within a stringent time frame.
+On top of using existing labelled data (inference graph) provided by a pre trained model, I also explored opportunities of enhancing the trained set with new images and generating a new inference graph.
+Also, explored how to freeze new graph and train them iteratively.
+
+
+Few improvement ideas:
+1) Train new images in addition to the ones offered by the trained networks used
+2) Experiment with improved hardware and other networks.
+
+
